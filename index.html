@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MKSJHH8');</script>
+    <!-- End Google Tag Manager -->
     <!-- Meta tag's -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,6 +33,13 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKSJHH8" height="0" width="0"
+            style="display:none;visibility:hidden">
+        </iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
         <!-- Navigation bar -->
         <nav>
@@ -33,6 +50,7 @@
                 </div>
             </div>
         </nav>
+        <!-- End Navigation bar -->
         <!-- Spotlight bar -->
         <h1 class="big-title translate" data-speed="0.1">Seek Discomfort.</h1>
         <img src="img/nav/person.png" class="person translate" data-speed="-0.25" alt="">
@@ -40,31 +58,35 @@
         <img src="img/nav/mountain2.png" class="mountain2 translate" data-speed="0.4" alt="">
         <img src="img/nav/mountain3.png" class="mountain3 translate" data-speed="0.3" alt="">
         <img src="img/nav/sky.png" class="sky translate" data-speed="0.5" alt="">
+        <!-- End Spotlight bar -->
     </header>
+    <!--About me section-->
     <section>
         <div class="shadow"></div>
         <div class="container">
             <div class="content opacity">
                 <h3 class="title">
-                    About
+                    About me
                     <div class="border"></div>
                 </h3>
-                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque officiis quos expedita
-                    ipsa, a quidem inventore voluptates debitis accusamus tenetur qui et voluptas dicta, culpa earum,
-                    doloribus odio consectetur consequuntur soluta quasi nobis! Deserunt voluptatum reiciendis iure
-                    expedita sequi quisquam laboriosam temporibus exercitationem.</p>
+                <p class="text">Hi!
+                    I'm Thomas, a product designer and front-end developer based in the Netherlands.
+                    I'm currently working as a freelancer, but I'm also looking for a full-time position.
+                </p>
             </div>
             <div class="imgContainer opacity">
-                <img src="img/image.jpg" alt="">
+                <img src="img/aboutme.png" alt="">
             </div>
         </div>
     </section>
-    <footer class="page-footer bg-dark">
+    <!--End About me section-->
+    <!-- Footer section -->
+    <footer class="page-footer" style="background-color:#151515 ;">
         <div class="container">
             <div class="links">
                 <a class="text-white" href="index.html">Home</a>
-                <a class="text-white" href="html/contact.html">Contact me</a>
-                <a class="text-white" href="html/projects.html">Projecten</a>
+                <a class="text-white" href="contact/contact.html">Contact</a>
+                <a class="text-white disabled" href="projects/projects.html">Projects (Coming soon)</a>
             </div>
             <div class="social-icons">
                 <a href="https://github.com/TKuijvenhoven"><i class="icon fab fa-github"></i></a>
@@ -73,6 +95,7 @@
             </div>
         </div>
     </footer>
+    <!-- End Footer section -->
     <script src="app.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
